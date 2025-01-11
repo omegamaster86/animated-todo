@@ -1,6 +1,6 @@
 {
   "name": "animated-todo",
-  "main": "expo-router/entry",
+  "description": "A smoothly animated ToDo app built with React Native",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
@@ -30,6 +30,7 @@
     "expo-symbols": "~0.2.1",
     "expo-system-ui": "~4.0.7",
     "expo-web-browser": "~14.0.2",
+    "prettier": "^3.4.2",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native": "0.76.6",
