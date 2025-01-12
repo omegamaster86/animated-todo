@@ -1,10 +1,11 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import AppContainer from './components/app-container'
+import MainScreeen from './app/screens/main';
 
 export default function App() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Welcome to Expo!</Text>
-    </View>
+    <AppContainer>
+      <MainScreeen />
+    </AppContainer>
   );
 }
