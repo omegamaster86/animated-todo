@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Text, Box, Center, VStack, useColorModeValue } from 'native-base'
 import ThemeToggle from '../../components/theme-toggle'
+// import { App } from '../../components/animated-checkbox'
 
 export default function MainScreeen() {
   return (
@@ -11,6 +12,9 @@ export default function MainScreeen() {
       px={4}
     >
       <VStack space={5} alignItems="center">
+        <Box>
+          {/* <App/> */}
+        </Box>
         <Box p={10} bg={useColorModeValue('red.500', 'yellow.500')}>
           <Text>hello</Text>
         </Box>
